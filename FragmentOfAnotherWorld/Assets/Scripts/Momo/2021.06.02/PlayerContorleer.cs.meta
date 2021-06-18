@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 36bd1c57fa28060438468c00b738a12f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - char2: {instanceID: 0}
+  - chara1: {fileID: 21300000, guid: 7e983e52906ba0d44920455c51998dbf, type: 3}
+  - chara2: {fileID: 21300000, guid: 6f245e8bb69c4aa4b971f8281e3dd887, type: 3}
+  - Jump: {fileID: 8300000, guid: 2b2654adfd1d132488bcbb62ad42ddde, type: 3}
+  - FallDeath: {fileID: 8300000, guid: 348e6cbafe4c8ed419f03b8aa0581ebc, type: 3}
+  - CheckPoint: {fileID: 8300000, guid: a12ae484733a8954a884d1819148fc13, type: 3}
+  - beam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
