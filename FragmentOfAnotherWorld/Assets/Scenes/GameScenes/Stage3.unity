@@ -1815,13 +1815,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 322143632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40e3b384ce0aba94b86373e3df233dce, type: 3}
+  m_Script: {fileID: 11500000, guid: aa717edda3122404886befa363ed8718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movePoint:
   - {fileID: 898169193}
   - {fileID: 1085416102}
-  speed: 0.3
+  speed: 1
 --- !u!1 &383488152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,13 +2212,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 452557011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40e3b384ce0aba94b86373e3df233dce, type: 3}
+  m_Script: {fileID: 11500000, guid: aa717edda3122404886befa363ed8718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movePoint:
   - {fileID: 1453479101}
   - {fileID: 296048246}
-  speed: 0.27
+  speed: 1
 --- !u!1 &511858282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2797,13 +2797,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 622032615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40e3b384ce0aba94b86373e3df233dce, type: 3}
+  m_Script: {fileID: 11500000, guid: aa717edda3122404886befa363ed8718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movePoint:
   - {fileID: 1826317501}
   - {fileID: 1599205499}
-  speed: 0.3
+  speed: 1
 --- !u!1 &630453484
 GameObject:
   m_ObjectHideFlags: 0
@@ -6120,10 +6120,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2007456398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40e3b384ce0aba94b86373e3df233dce, type: 3}
+  m_Script: {fileID: 11500000, guid: aa717edda3122404886befa363ed8718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movePoint:
   - {fileID: 609421744}
   - {fileID: 452543888}
-  speed: 0.3
+  speed: 1

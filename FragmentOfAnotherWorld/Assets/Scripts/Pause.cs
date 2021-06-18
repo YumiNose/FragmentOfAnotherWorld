@@ -76,6 +76,7 @@ public class Pause : MonoBehaviour
     void Start()
     {
         
+
         if(isPause == false)
         {
             return;

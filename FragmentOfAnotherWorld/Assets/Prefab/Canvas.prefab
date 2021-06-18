@@ -119,7 +119,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6465044823041722002}
+      - m_Target: {fileID: 0}
         m_MethodName: OnButtonContinuePressed
         m_Mode: 1
         m_Arguments:
@@ -446,7 +446,6 @@ GameObject:
   - component: {fileID: 4166704727066069604}
   - component: {fileID: 4166704727066069611}
   - component: {fileID: 4166704727066069610}
-  - component: {fileID: 6465044823041722002}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -540,27 +539,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6465044823041722002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4166704727066069609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24cbc8f218dd447469196d5fb8c3cbd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausePanel: {fileID: 4115291910468701292}
-  Poz: {fileID: 8300000, guid: 27d93c98a1ba0b74381429da4a706dfc, type: 3}
-  Action: {fileID: 8300000, guid: a087e5c89dd33d4498efa4250397ec14, type: 3}
-  StageNumber:
-  - {fileID: 871998988443597824}
-  - {fileID: 7215022495964698412}
-  - {fileID: 7045242839217218794}
-  Cursor: {fileID: 3082657059636349023}
-  isPause: 0
 --- !u!1 &4166704727374285044
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +802,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6465044823041722002}
+      - m_Target: {fileID: 0}
         m_MethodName: OnButtonSelectPressed
         m_Mode: 1
         m_Arguments:
@@ -954,7 +932,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6465044823041722002}
+      - m_Target: {fileID: 0}
         m_MethodName: OnButtonRedoPressed
         m_Mode: 1
         m_Arguments:

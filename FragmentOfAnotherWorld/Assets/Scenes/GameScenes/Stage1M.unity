@@ -800,6 +800,12 @@ Transform:
   m_Father: {fileID: 1234405122}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &372296041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7045242839217218794, guid: e3fadba59d5bd3443ac9a471bd4b400b,
+    type: 3}
+  m_PrefabInstance: {fileID: 531533861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &449324420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1151,12 @@ Transform:
   m_Father: {fileID: 118411996}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &523624250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3082657059636349023, guid: e3fadba59d5bd3443ac9a471bd4b400b,
+    type: 3}
+  m_PrefabInstance: {fileID: 531533861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &531533861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1275,7 +1287,7 @@ PrefabInstance:
     - target: {fileID: 4166704727066069609, guid: e3fadba59d5bd3443ac9a471bd4b400b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4166704727066069611, guid: e3fadba59d5bd3443ac9a471bd4b400b,
         type: 3}
@@ -2068,6 +2080,12 @@ Transform:
 --- !u!1 &1050486285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4166704727066069609, guid: e3fadba59d5bd3443ac9a471bd4b400b,
+    type: 3}
+  m_PrefabInstance: {fileID: 531533861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1226422585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215022495964698412, guid: e3fadba59d5bd3443ac9a471bd4b400b,
     type: 3}
   m_PrefabInstance: {fileID: 531533861}
   m_PrefabAsset: {fileID: 0}
@@ -3050,6 +3068,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465872475}
+  - component: {fileID: 1465872476}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -3071,6 +3090,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465872476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465872474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24cbc8f218dd447469196d5fb8c3cbd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 1050486285}
+  Poz: {fileID: 8300000, guid: 27d93c98a1ba0b74381429da4a706dfc, type: 3}
+  Action: {fileID: 8300000, guid: a087e5c89dd33d4498efa4250397ec14, type: 3}
+  StageNumber:
+  - {fileID: 1496772974}
+  - {fileID: 1226422585}
+  - {fileID: 372296041}
+  Cursor: {fileID: 523624250}
+  isPause: 0
+--- !u!1 &1496772974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871998988443597824, guid: e3fadba59d5bd3443ac9a471bd4b400b,
+    type: 3}
+  m_PrefabInstance: {fileID: 531533861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1500504909
 GameObject:
   m_ObjectHideFlags: 0
