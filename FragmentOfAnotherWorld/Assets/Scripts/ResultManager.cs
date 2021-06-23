@@ -32,7 +32,8 @@ public class ResultManager : MonoBehaviour
             this.isStartButtonPressed = true;
             audioSource.PlayOneShot(Action);
 
-            SceneManager.LoadScene("SelectScene");
+            //SceneManager.LoadScene("SelectScene");
+            FadeManager.Instance.LoadScene("SelectScene", 1.0f);
         }
     }
 
@@ -99,7 +100,7 @@ public class ResultManager : MonoBehaviour
         Cursor.transform.position = StageNumber[cursorPosition].transform.position;
 
 
-        // ステージセレクトで決定ボタンを押す
+        // リザルトで決定ボタンを押す
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
             StageNumber[cursorPosition].GetComponent<Button>().onClick.Invoke();

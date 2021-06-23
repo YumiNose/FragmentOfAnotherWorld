@@ -61,7 +61,8 @@ public class SelectManager : MonoBehaviour
             audioSource.PlayOneShot(Action);
 
             // 統合時に要変更
-            SceneManager.LoadScene("Stage3M");
+            //SceneManager.LoadScene("Stage3M");
+            FadeManager.Instance.LoadScene("Stage3", 1.0f);
         }
     }
 

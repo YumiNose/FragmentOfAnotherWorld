@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         //テキストを非表示にする
-        ClearText.SetActive(false);
+        //ClearText.SetActive(false);
 
         //コンポーネント取得
         this.audioSource = GetComponent<AudioSource>();
@@ -33,7 +33,7 @@ public class GameController : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             //テキストを表示させる
-            ClearText.SetActive(true);
+            //ClearText.SetActive(true);
 
             audioSource.PlayOneShot(Goal);
 

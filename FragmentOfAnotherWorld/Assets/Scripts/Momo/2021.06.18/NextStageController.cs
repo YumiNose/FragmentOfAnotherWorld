@@ -26,7 +26,7 @@ public class NextStageController : MonoBehaviour
 
         if (sceneName == "Result")
         {
-            SceneManager.LoadScene("Stage2");
+            SceneManager.LoadScene("Stage2M");
         }
 
 
